@@ -1,0 +1,42 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #142d4c;
+  width: 8%;
+  height: 90vh;
+  border-radius:0px;
+  padding-top: 4px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  width: 90%;
+  height: 40px;
+  border-bottom: 1px solid white;
+  background: transparent;
+  padding: 4px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.activeItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  width: 90%;
+  height: 40px;
+  border-bottom: 1px solid white;
+  background: transparent;
+  padding: 4px;
+  font-size: 16px;
+  color: #dad6a5;
+  cursor: pointer;
+  border-radius: 2px;
+}
