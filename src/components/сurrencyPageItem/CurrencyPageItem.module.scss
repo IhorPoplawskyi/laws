@@ -1,12 +1,22 @@
 .container {
+  display: flex;
   &:nth-child(odd) {
     background-color: rgb(243, 242, 242);
   }
-  width: 50%;
+  width: 40%;
   padding: 5px;
+  &:hover {
+    background-color: aquamarine;
+  }
 }
 
 .item {
+  width: 33.3333%;
   display: flex;
-  gap: 5px;
+  &:nth-child(2n) {
+    justify-content: center;
+  }
+  &:last-child {
+    justify-content: end;
+  }
 }
