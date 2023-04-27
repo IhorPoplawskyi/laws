@@ -11,7 +11,7 @@ export const CurrencyPageItem: FC<Icurr> = ({ rate, exchangedate, txt }): JSX.El
           <div>{txt}</div>
         </div>
         <div className={s.item}>
-          <div>{rate} грн</div>
+          <div>{rate.toFixed(2)} грн</div>
         </div>
         <div className={s.item}>
           <div>{exchangedate}</div>
