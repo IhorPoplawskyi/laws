@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #142d4c;
-  width: 8%;
-  height: 90vh;
-  border-radius:0px;
-  padding-top: 4px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 8vw;
+  padding: 10px 0px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 .item {
@@ -16,13 +16,14 @@
   margin: 1px;
   width: 90%;
   height: 40px;
-  border-bottom: 1px solid white;
-  background: transparent;
   padding: 4px;
   font-size: 16px;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   border-radius: 2px;
+  &:hover {
+    color: #ffffff;
+  }
 }
 
 .activeItem {
@@ -32,11 +33,11 @@
   margin: 1px;
   width: 90%;
   height: 40px;
-  border-bottom: 1px solid white;
-  background: transparent;
   padding: 4px;
   font-size: 16px;
-  color: #dad6a5;
+  background: rgba(255, 255, 255, 0.096);
+  box-shadow: 1px 1px 0.3px black;
+  color: #ffffff;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 10px;
 }
