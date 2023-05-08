@@ -8,7 +8,6 @@ import { OfflinePage } from './pages/offlinePage/OfflinePage'
 
 function App() {
   return (
-    <div className='wrap'>
     <BrowserRouter>
       <Header />
       <Routes>
@@ -18,7 +17,6 @@ function App() {
         <Route path='/nakaz744' element={< OfflinePage />} />
       </Routes>
     </BrowserRouter>
-    </div>
   )
 }
 

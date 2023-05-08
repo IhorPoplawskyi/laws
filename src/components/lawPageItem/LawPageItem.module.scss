@@ -1,11 +1,11 @@
 .item {
   padding: 4px;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 92%;
+  width: 100%;
   :hover {
     color: rgb(213, 216, 10);
   }
   a {
     color: rgb(243, 239, 225);
+    border-bottom: 0.1px solid white;
   }
 }
